@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'slant';
+    src: url('SLANT.TTF') format('truetype');
+  }
+
+
+body{
+    background-color: black;
+}
+.NameDiv {
+      text-align: center;
+      font-size: larger;
+      font-family: 'slant';
+      font-size: 6pc;
+      color: green;
+  }
+
+
+.headWrapper{
+
+    background-color: green;
+  }
+  
+  
+  .menuBar{
+    padding-top: 5px;
+    background-color: green;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+
+  .navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:green;
+    font-family: "slant";
+  }
+  
+  .liNav {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: green;
+  }
+  
+  
+  li a:hover {
+    
+    background-color: darkgreen;
+  } 
+
+
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'slant';
+    font-size: 6pc;
+  }
+
+.description{
+
+  padding: 2%;
+  background-color: lightgreen;
+  text-align: left;
+  font-size: 18px;
+}
+
+
+.gallery div{
+  width: 33.3333%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.column3 {
+  float: left;
+  width: 33.33%;
+}
+
+.column4 {
+  float: left;
+  width: 25%;
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img{
+  width:100%;
+}
